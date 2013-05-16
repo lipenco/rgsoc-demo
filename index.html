@@ -1,0 +1,121 @@
+<!doctype html>
+
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+     
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/1.css" rel="stylesheet" />
+
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.8.3.min.js'></script> 
+<script type='text/javascript' src='js/bootstrap.js'></script>
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+
+<body>
+
+<div class="menu">
+        <ul>
+           <a href="#me"> <li> Me</li></a>
+           <a href="#mentor"> <li> Mentor</li></a>
+            <a href="#couches"><li> Couches</li></a>
+           <a href="#contact"> <li> Contact</li></a>
+      
+        </ul>
+
+        <span></span>
+</div> 
+ 
+ 
+
+
+<div id="impress">
+
+
+    <div id="title" class="step" data-x="500" data-y="-400" data-scale="3">
+        <span class="try">Application for</span>
+        <h1>Rails Girls</h1> 
+    </div>
+
+    <div id="logo" data-rotate="0" class="step" data-x="-850" data-y="-250"   data-scale="3">
+    </div>
+
+    <div   data-rotate="-90" class="step" data-x="2850" data-y="1870"  data-z="-2000" data-scale="3">
+    <img    src="img/rails.png"/> 
+    </div>
+
+   
+
+   
+    <div id="its" class="step" data-x="500" data-y="2500" data-rotate="90" data-scale="5">
+        <p>My name is Magdalena Lipińska <br/>  and I was attendee at <strong>Berlin <br/>  Rils Girls</strong> workshop at the <br/> begining  of my coding <br/> adventure. 
+    </div>
+
+  <div id="its2" class="step" data-x="5150" data-y="2500" data-rotate="270" data-scale="5">
+   <p>  Now I want to continue my <br/> studying and work on the <br/>  open source project <br/><a href="http://github.com/bartaz/impress.js">Impress.js</a>  </p>
+   </div>
+
+  <div id="bartek" class="step" data-x="4700" data-y="-500" data-scale="3">
+        <span class="try2">My mentor is <br/> </span>
+        <span class="try3"><h1>  Bartosz Szopka </h1> </span>  
+  </div>
+
+    <div id="bartek2" class="step" data-x="2300" data-y="4400" data-scale="2">
+       
+        <h4>  Bartosz is experienced developer who created <br/> Impress.js. He is interesting in mentoring<br/> and coaching. His vison and skills makes<br/> me very excited about our <br/> cooperation toward <br/>  developing <br/>  Impress.js. </h4>
+  </div>
+
+
+
+
+
+
+  
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+
+
+
+</div>
+</div>
+
+
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+
+
+
+</body>
+</html>
+
+
+
