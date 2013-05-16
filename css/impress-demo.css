@@ -241,12 +241,13 @@ a {
 }
 
 #title .try {
-    font-size: 64px;
+    font-size: 94px;
     position: absolute;
     top: -2.5em;
     left: 1.5em;
     color: #ffff99;
     font-family: Apercu Pro Regular;
+    
 
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
@@ -256,12 +257,14 @@ a {
 }
 
 #bartek .try2 {
-    font-size: 64px;
+    font-size: 94px;
     position: absolute;
     top: -1.9em;
-    left: 6em;
+    left: 300px;
+   
      color: #99ff99;
     font-family: Apercu Pro Regular;
+    letter-spacing: 10px;
 
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
@@ -270,10 +273,11 @@ a {
     transform:         translateZ(20px);
 }
 
-#caach p {
+#coach p {
     color: #ff9999;
-    font-size: 74px;
-    width: 1000px;
+    font-size: 64px;
+    width: 600px;
+    text-align: justify;
 }
 
 #caach a {
@@ -289,15 +293,23 @@ a {
     width: 1000px;
 }
 
+#new p {
+    color: #99ccff;
+    font-size: 62px;
+    width: 600px;
+    text-align: justify;
+}
+
+
 #me p {
-    color: #99ff99;
-    font-size: 84px;
-    text-align: right;
+    color: #ffff99;
+    font-size: 64px;
+    text-align: justify;
+    width: 500px;
 }
 
 #me a {
     color: #ff9999;
-    font-size: 90px;
     text-align: right;
     text-decoration: none;
 }
@@ -314,7 +326,7 @@ a {
     
     font-size: 160px;
       position: absolute;
-    left: 0em;
+   
     top: -0.10em;
     width: 1900px;
      color: #99ff99;
@@ -328,12 +340,16 @@ a {
 
 #bartek2 p {
     
-    font-size: 40px;
-color: #99ccff;
-    width: 850px;
-    text-align: center;
+    font-size: 30px;
+    width: 450px;
+   color: #99ccff;
+    text-align: justify;
+    line-height: 60px;
+}
 
-  
+#bartek2 {
+    width: 200px;
+    height: 800px;
 }
 
 #title h1 {
@@ -343,6 +359,7 @@ color: #99ccff;
     top: -0.5em;
     width: 2600px;
     color: #ffff99;
+    letter-spacing: 10px;
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
@@ -540,6 +557,10 @@ color: #99ccff;
 
 #its p {
      color: #99ff99;
+      width: 450px;
+      font-size: 35px;
+      text-align: justify;
+      line-height: 60px;
 }
 
 #its strong {
@@ -548,9 +569,10 @@ color: #99ccff;
 
 #its2 p{
     color: #ffff99;
-
+     width: 450px;
+text-align: justify;
     font-family: Apercu Pro Bold;
-    font-size: 60px;
+    font-size: 35px;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
     -ms-transform-style:     preserve-3d;
@@ -558,18 +580,7 @@ color: #99ccff;
     transform-style:         preserve-3d;
 }
 
-#its2 {
-    font-family: Apercu Pro Bold;
-    font-size: 60px;
-    text-align: right;
-    color: #ffff99;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
-    -ms-transform-style:     preserve-3d;
-    -o-transform-style:      preserve-3d;
-    transform-style:         preserve-3d;
-    padding-right: 5;
-}
+
 
 #its2 b {
     
