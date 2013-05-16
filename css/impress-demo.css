@@ -113,37 +113,13 @@ body {
 b, strong { font-weight: bold }
 i, em { font-style: italic }
 
-/*
-    ... and give links a nice look.
-*/
-a {
-    color: inherit;
-    text-decoration: none;
-    padding: 0 0.1em;
-    background: rgba(255,255,255,0.5);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
-    border-radius: 0.2em;
 
-    -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
+a {
+    color: #99ccff;
 }
 
 
 
-/*
-    Because the main point behind the impress.js demo is to demo impress.js
-    we display a fallback message for users with browsers that don't support
-    all the features required by it.
-
-    All of the content will be still fully accessible for them, but I want
-    them to know that they are missing something - that's what the demo is
-    about, isn't it?
-
-    And then we hide the message, when support is detected in the browser.
-*/
 
 .fallback-message {
     font-family: sans-serif;
@@ -261,6 +237,7 @@ a {
 
 #title {
     padding: 0;
+     color: #99ff99;
 }
 
 #title .try {
@@ -268,7 +245,7 @@ a {
     position: absolute;
     top: -2.5em;
     left: 1.5em;
-    color: #ffa500;
+    color: #ffff99;
     font-family: Apercu Pro Regular;
 
     -webkit-transform: translateZ(20px);
@@ -283,7 +260,7 @@ a {
     position: absolute;
     top: -1.9em;
     left: 6em;
-    color: #ffa500;
+     color: #99ff99;
     font-family: Apercu Pro Regular;
 
     -webkit-transform: translateZ(20px);
@@ -293,6 +270,46 @@ a {
     transform:         translateZ(20px);
 }
 
+#caach p {
+    color: #ff9999;
+    font-size: 74px;
+    width: 1000px;
+}
+
+#caach a {
+    color: #99ccff;
+    font-size: 80px;
+    width: 1000px;
+    text-decoration: none;
+}
+
+#caach a:hover{
+    color: #99ff99;
+    font-size: 80px;
+    width: 1000px;
+}
+
+#me p {
+    color: #99ff99;
+    font-size: 84px;
+    text-align: right;
+}
+
+#me a {
+    color: #ff9999;
+    font-size: 90px;
+    text-align: right;
+    text-decoration: none;
+}
+
+#me a:hover {
+    color: #99ff99;
+    font-size: 90px;
+    text-align: right;
+    text-decoration: none;
+}
+
+
 #bartek .try3 h1{
     
     font-size: 160px;
@@ -300,6 +317,7 @@ a {
     left: 0em;
     top: -0.10em;
     width: 1900px;
+     color: #99ff99;
 
     -webkit-transform: translateZ(20px);
     -moz-transform:    translateZ(20px);
@@ -308,11 +326,11 @@ a {
     transform:         translateZ(20px);
 }
 
-#bartek2 h4 {
+#bartek2 p {
     
-    font-size: 60px;
-
-    width: 1400px;
+    font-size: 40px;
+color: #99ccff;
+    width: 850px;
     text-align: center;
 
   
@@ -324,6 +342,7 @@ a {
     left: 0.5em;
     top: -0.5em;
     width: 2600px;
+    color: #ffff99;
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
@@ -334,6 +353,7 @@ a {
 
 #title .footnote {
     font-size: 32px;
+    color: #ffff99;
 }
 
 /*
@@ -475,20 +495,13 @@ a {
 
     Just make sure you don't blindly copy this approach.
 */
-#source {
-    width: 700px;
-    padding-bottom: 300px;
 
-    /* Yoda Icon :: Pixel Art from Star Wars http://www.pixeljoint.com/pixelart/1423.htm */
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAEYCAMAAACwUBm+AAAAAXNSR0IArs4c6QAAAKtQTFRFsAAAvbWSLUUrLEQqY1s8UYJMqJ1vNTEgOiIdIzYhjIFVLhsXZ6lgSEIsP2U8JhcCVzMsSXZEgXdOO145XJdWOl03LzAYMk4vSXNExr+hwcuxRTs1Qmk+RW9Am49eFRANQz4pUoNMQWc+OSMDTz0wLBsCNVMxa2NBOyUDUoNNSnlEWo9VRGxAVzYFl6tXCggHbLNmMUIcHhwTXkk5f3VNRT8wUT8xAAAACQocRBWFFwAAAAF0Uk5TAEDm2GYAAAPCSURBVHja7d3JctNAFIZRMwRCCGEmzPM8z/D+T8bu/ptbXXJFdij5fMt2Wuo+2UgqxVmtttq5WVotLzBgwIABAwYMGDCn0qVqbo69psPqVpWx+1XG5iaavF8wYMCAAQMGDBgwi4DJ6Y6qkxB1HNlcN3a92gbR5P2CAQMGDBgwYMCAWSxMlrU+UY5yu2l9okfV4bAxUVbf7TJnAwMGDBgwYMCAAbMLMHeqbGR82Zy+VR1Ht81nVca6R+UdTLaU24Ruzd3qM/e4yjnAgAEDBgwYMGDA7AJMd1l/3NRdVGcj3eX/2WEhCmDGxnM7yqygu8XIPjJj8iN/MGDAgAEDBgwYMAuDGb8q0RGlLCHLv1t9qDKWn3vdNHVuEI6HPaxO9Jo3GDBgwIABAwYMmIXBdC9ShGgMk+XnkXUeuGcsP/e1+lhNnZsL/G5Vs3OAAQMGDBgwYMCAWSxMR3SzOmraG5atdy9wZKzb+vg16qyqe2FltbnAgAEDBgwYMGDALAxmTJSuN3WA76rnVca6GTnemGN1WoEBAwYMGDBgwIBZGMxUomy4+xO899V4LAg5Xnc2MGDAgAEDBgwYMGA218Wq+2K1LDqvY9xZu8zN8fICdM6btYABAwYMGDBgwIABMzfH0+pGU5afze2tXebmeAfVz+p8BQYMGDBgwIABAwbMPBzZ+oWmfJrln1273FhkbHzee9WWbw7AgAEDBgwYMGDALAKm43hcdctKgblcPamOhuXnXlY5Xs6bsW4FGyQCAwYMGDBgwIABswiYMceZKgvMo+h8mrHLTdn676rj+FEFoTtHd8MwOxEYMGDAgAEDBgyYRcBM5UhXqiymW3R3c9ARhWO/OmjqfjVZy+xEYMCAAQMGDBgwYBYG073OnCV0RFNhMhaOa9WfKmOB6XjHMN1tQmaAAQMGDBgwYMCA2VWY7vXjz1U4croAzgPztwIDBgwYMGDAgAEDZhswh035NBw59Dww3RgYMGDAgAEDBgwYMJuD6f4tXT7NUqfCdBvZLkxXdgQGDBgwYMCAAQNmt2DGj8WzwAfV/w7T/aq7mxwwYMCAAQMGDBgwuwqTOo7uTwTngflSzQ3TdaJvAwEDBgwYMGDAgAED5gSvgbyo5oHZ4Pc+gwEDBgwYMGDAgAEzhOm+5G0qTGaAAQMGDBgwYMCAAXNaMOcnls3tNwWm+zRzp54NDBgwYMCAAQMGDJh5YNL36k1TLuGvVq+qnKMbS5n7tulT9asCAwYMGDBgwIABA2ZumKuztLnjgQEDBgwYMGDAgNl5mH/4/ltKA6vBNAAAAABJRU5ErkJggg==);
-    background-position: bottom right;
-    background-repeat: no-repeat;
-}
 
 #logo {
-  background-image:url('../img/ser.jpg')  ;
-  width:95px;
-  height:95px;
+  background-image:url('../img/ser.jpeg')  ;
+  width:215px;
+  height:195px;
+  box-shadow: none;
 }
 
 #head-line p{
@@ -525,10 +538,31 @@ a {
     transform-style:         preserve-3d;
 }
 
+#its p {
+     color: #99ff99;
+}
+
+#its strong {
+     color: #99ccff;
+}
+
+#its2 p{
+    color: #ffff99;
+
+    font-family: Apercu Pro Bold;
+    font-size: 60px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
+    -ms-transform-style:     preserve-3d;
+    -o-transform-style:      preserve-3d;
+    transform-style:         preserve-3d;
+}
+
 #its2 {
     font-family: Apercu Pro Bold;
     font-size: 60px;
     text-align: right;
+    color: #ffff99;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
     -ms-transform-style:     preserve-3d;
